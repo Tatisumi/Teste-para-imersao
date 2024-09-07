@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--Serve para identificar o tipo de documento-->
+<html lang="pt-br">
+    <!--Serve para explicar a linguagem que será usada-->
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <!--Linkar o HTML com o CSS-->
+
+    <!--Serve para colocar as informações para o navegador/metadados-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste para imersao</title>
+    <!--Nome da página-->
+</head>
+<body>
+    <header>
+        <!--cabeçario-->
+        <h1>Jogos de simulador</h1>
+        <!--Titulo-->
+    </header>
+
+    <main>
+    <!--Conteudo principal-->
+        <section>
+            <!--Serve para separar as sessões-->
+            <input type="text" placeholder="Digite o nome do jogo." id="campo-pesquisa">
+            <!--Caixa de texto-->
+
+                            <!--Referenciano a função-->
+            <button onclick="pesquisar()">Pesquisar</button>
+                    <!--Botão: Algo acontece ao clicar/dentro das "" se coloca uma ação/ se chama função = bloco de códigos que guarda todas as infoemções q serão conectadas-->
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+    <footer>
+        <!--roda pé-->
+        <p>Jogos para todos aqueles que gostam de viver outra realidade</p>
+        <p>Sugestões? Entre em contato: 9 1234-5678</p>
+    </footer>
+    <script src="dados.js"></script>
+    <!--Primeiro os dados depois a logica-->
+    <script src="app.js"></script>
+</body>
+</html>
